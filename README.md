@@ -18,3 +18,4 @@ Imparare di PHP e suoi Frameworks Web.
 3. [Wampserver - Visual C++ Redistributable - Issue solved - II](https://answers.microsoft.com/en-us/windows/forum/all/msvcr110dll-missing-for-wamp-server/5951414d-3ffc-41e8-aad2-3945456bab1f).
 4. [Wampserver - Visual C++ Redistributable - Issue solved - II](http://www.steptoinstall.com/msvcr100-dll-is-missing-when-wamp-server-install.html).
 5. [Migrations - 1071 error - solved - AppServiceProvider](https://laravel-news.com/laravel-5-4-key-too-long-error).
+6. [GitHub Actions Working Directory](https://stackoverflow.com/questions/58139175/running-actions-in-another-directory).
