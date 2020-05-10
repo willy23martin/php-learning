@@ -1,16 +1,16 @@
-# PHP - Apprendimento e Web Frameworks
-Imparare di PHP e suoi Web Frameworks
+# PHP - Apprendimento e Frameworks Web
+Imparare di PHP e suoi Frameworks Web.
 
 ## A) Progetto di Laravel 7:
  ### Server del Database:
-    * Tipo di Server: MySQL.
-    * Versione del server: 8.0.18 - MySQL Community Server - GPL.
-    * Porta: 3308.
-    * Versione PHP: 7.3.12.
+   * **Tipo di Server**: MySQL.
+   * **Versione del server**: 8.0.18 - MySQL Community Server - GPL.
+   * **Porta**: 3308.
+   * **Versione PHP**: 7.3.12.
     
  ### Il Processo di Installazione:
-    * Scarica il progetto con il comando `git clone`.
-    * Vai alla directory laravel-7-web-app e poi eseguire i seguenti [comandi](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/).
+   1. Scarica il progetto con il comando `git clone`.
+   2. Vai alla directory laravel-7-web-app e poi eseguire i seguenti [comandi](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/).
      
 ## Riferimenti:
 1. [Laravel 7 - Authentication](https://laravel.com/docs/7.x/authentication).
