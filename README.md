@@ -19,3 +19,4 @@ Imparare di PHP e suoi Frameworks Web.
 4. [Wampserver - Visual C++ Redistributable - Issue solved - II](http://www.steptoinstall.com/msvcr100-dll-is-missing-when-wamp-server-install.html).
 5. [Migrations - 1071 error - solved - AppServiceProvider](https://laravel-news.com/laravel-5-4-key-too-long-error).
 6. [GitHub Actions Working Directory](https://stackoverflow.com/questions/58139175/running-actions-in-another-directory).
+7. [Viste con Material Kit](https://demos.creative-tim.com/material-kit/index.html).
