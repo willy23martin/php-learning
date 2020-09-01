@@ -1,0 +1,4 @@
+This is a file line 1
+line 2
+line 3
+New text in the fileNew text in the fileNew text in the fileNew text in the fileNew text in the fileNew text in the fileNew text in the file
