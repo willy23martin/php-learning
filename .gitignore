@@ -5,6 +5,7 @@ yarn-error.log
 
 # Laravel 4 specific
 bootstrap/compiled.php
+material-kit-master
 app/storage/
 
 # Laravel 5 & Lumen specific
