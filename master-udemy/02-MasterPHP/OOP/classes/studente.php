@@ -4,16 +4,26 @@ class Studente {
 
     // Attributes
     public $nickname;
-    public $codiceStudente;
-    public $nome;
-    public $cognome;
+    private $codiceStudente;
+    protected $nome;
+    protected $cognome;
 
     // Constructor
-    
-    public function __construct() {
-        ;
+
+    /**
+     * Studente
+     * @param type $codiceStudente
+     * @param type $nome
+     * @param type $cognome
+     * @param type $nickname
+     */
+    public function __construct($codiceStudente, $nome, $cognome, $nickname) {
+        $this->codiceStudente = $codiceStudente;
+        $this->nome = $nome;
+        $this->cognome = $cognome;
+        $this->nickname = $nickname;
     }
-    
+
     // Methods
     public function getNickName() {
         return $this->nickname;
@@ -47,9 +57,22 @@ class Studente {
         $this->cognome = $cognome;
     }
 
+    /**
+     * Coi type definito.
+     * @param Studente $studente
+     * @return type
+     */
+    public function resume_information(Studente $studente) {
+        return "Nickname: " . $studente->nickname .
+                " - " . $studente->getCodiceStudente() .
+                " - " . $studente->getNome() .
+                "-" . $studente->getCognome();
+    }
+
 }
 
-$studenteA = new Studente();
+$studenteA = new Studente("A0024", "Will", "Cha", "WMC-beta");
 $studenteA->setNickName("WMC");
 echo $studenteA->getNickName();
+echo ($studenteA->resume_information($studenteA));
 var_dump($studenteA);
