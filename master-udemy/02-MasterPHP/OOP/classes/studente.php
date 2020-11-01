@@ -23,6 +23,20 @@ class Studente {
         $this->cognome = $cognome;
         $this->nickname = $nickname;
     }
+<<<<<<< HEAD
+    
+    // Destructor:
+    /**
+     * Executes when the web page has loaded.
+     */
+    public function __destruct() {
+        $this->codiceStudente='';
+        $this->nome='';
+        $this->cognome='';
+        $this->nickname='';
+    }
+=======
+>>>>>>> a03d36664bdc9f64bf9f1db976c366cc9ab826b5
 
     // Methods
     public function getNickName() {
@@ -68,6 +82,14 @@ class Studente {
                 " - " . $studente->getNome() .
                 "-" . $studente->getCognome();
     }
+<<<<<<< HEAD
+    
+    // Magic Methods:
+    public function __toString() {
+        return 'Lo studente si chiama: '.$this->nome.' '.$this->cognome.'.';
+    }
+=======
+>>>>>>> a03d36664bdc9f64bf9f1db976c366cc9ab826b5
 
 }
 
