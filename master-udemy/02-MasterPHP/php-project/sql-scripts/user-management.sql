@@ -5,6 +5,7 @@ CREATE TABLE pdg_professori (
     str_cognome VARCHAR(50) NOT NULL,
     CONSTRAINT pk_str_professor PRIMARY KEY (str_codice)
 )ENGINE=INNODB;
+
 CREATE TABLE pdg_carriere_universitarie (
 sk_int_id INT NOT NULL,
 str_codice VARCHAR(25) NOT NULL,

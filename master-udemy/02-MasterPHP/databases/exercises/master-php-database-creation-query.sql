@@ -48,7 +48,7 @@ CREATE TABLE clientes (
     ciudad VARCHAR(255) NOT NULL DEFAULT 'N/A',
     gastado BOOLEAN NOT NULL DEFAULT FALSE,
     CONSTRAINT pk_cliente PRIMARY KEY(id),
-    CONSTRAINT fk_vendedor_id FOREIGN KEY(veNdedor_id) REFERENCES vendedores(id)
+    CONSTRAINT fk_vendedor_id FOREIGN KEY(vendedor_id) REFERENCES vendedores(id)
 )ENGINE=INNODB;
 
 

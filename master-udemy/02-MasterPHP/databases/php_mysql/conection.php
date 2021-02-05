@@ -6,10 +6,10 @@
  * and open the template in the editor.
  */
 $host = "localhost";
-$user = "";
-$password = "";
-$database = "";
-$port = 0000;
+$user = "wchavez";
+$password = "Gns1234";
+$database = "master-php";
+$port = 3308;
 $connection = mysqli_connect(
         $host, $user, $password, $database, $port
 );

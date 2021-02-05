@@ -11,22 +11,14 @@ class Professore extends Utente {
     private $codice;
     private $nome;
     private $cognome;
-<<<<<<< HEAD
     private $area_specialita;
 
     public function __construct($identificazione, $nomeUtente, $indirizzoEmail, $codice, $nome, $cognome, $area_specialita) {
-=======
-
-    public function __construct($identificazione, $nomeUtente, $indirizzoEmail, $codice, $nome, $cognome) {
->>>>>>> a03d36664bdc9f64bf9f1db976c366cc9ab826b5
         parent::__construct($identificazione, $nomeUtente, $indirizzoEmail);
         $this->codice = $codice;
         $this->nome = $nome;
         $this->cognome = $cognome;
-<<<<<<< HEAD
         $this->area_specialita=$area_specialita;
-=======
->>>>>>> a03d36664bdc9f64bf9f1db976c366cc9ab826b5
     }
 
     public function getCodice() {
@@ -52,7 +44,6 @@ class Professore extends Utente {
     public function setCognome($cognome): void {
         $this->cognome = $cognome;
     }
-<<<<<<< HEAD
     public function getArea_specialita() {
         return $this->area_specialita;
     }
@@ -61,7 +52,5 @@ class Professore extends Utente {
         $this->area_specialita = $area_specialita;
     }
 
-=======
->>>>>>> a03d36664bdc9f64bf9f1db976c366cc9ab826b5
 
 }

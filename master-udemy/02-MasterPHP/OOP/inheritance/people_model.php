@@ -20,12 +20,8 @@ var_dump($utente);
 $codice = "B4565";
 $nome = "Professore A";
 $cognome = "Di Software";
-<<<<<<< HEAD
 $area_specialita="Ingegneria Informatica";
 $professore = new Professore($identificazione, $nomeUtente, $indirizzoEmail, $codice, $nome, $cognome, $area_specialita);
-=======
-$professore = new Professore($identificazione, $nomeUtente, $indirizzoEmail, $codice, $nome, $cognome);
->>>>>>> a03d36664bdc9f64bf9f1db976c366cc9ab826b5
 $professore->setPassword("password2");
 var_dump($professore);
 
